@@ -1,0 +1,74 @@
+/* chaptwo.css */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* font of body */
+    background: #ffecd8; /* background color */
+    margin: 0; 
+    padding: 0; /* Reset margin and padding to zero for all elements */
+}
+
+/* header's style, the bg color, its font, color and padding */
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #AB2330;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+} 
+
+/* h2's text color */
+h2
+{
+    color: #AB2330; 
+    border-left: thick solid #F5BD02;
+    border-right: thick solid #F5BD02;
+}
+
+nav ul {
+    list-style-type: none; /* to remove the markers/bullets. */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /*  tells the element to fit itself on the same line. */
+    margin-right: 20px;  /*  sets the margin area on the right side of an element. */
+}
+
+nav ul li a {
+    color: #F5BD02;
+    text-decoration: none; /* no line is drawn, and any existing decoration is removed.  */
+}
+
+main {
+    padding: 20px; /*  the space between its content and its border. */
+}
+
+section {
+    margin-bottom: 20px; /* sets the margin area on the bottom side of an element. */
+}
+
+footer {
+    background-color: #AB2330;
+    color: white;
+    text-align: center;  /* centers text */
+    padding: 10px; 
+}
+
+footer a {
+    color: #F5BD02;
+    text-decoration: none; /* Remove underline */
+}
+
+button {
+    background-color: #AB2330; /* Button background color */
+    color: #F5BD02; /* Text color */
+    border: none;  /* Remove border */
+    padding: 10px 20px; /* Padding around button text */
+    border-radius: 5px;  /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    text-decoration: none;  
+}
+
+button:hover {
+    background-color: #F5BD02;
+}
