@@ -1,0 +1,21 @@
+<!DOCTYPE html> <!-- Document type declaration -->
+<html lang="en"> <!-- Set the language of the document to English -->
+<head>
+  <meta charset="UTF-8"> <!-- Specify character encoding -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define viewport settings for responsive design -->
+  <link rel="stylesheet" href="chapsix.css" type="text/css" /> <!-- Link to external CSS stylesheet -->
+  <title>Petrol Calculator</title> <!-- Set the title of the webpage -->
+</head>
+<body>
+  <div class="container"> <!-- Main container -->
+    <h2>Petrol Calculator</h2> <!-- Heading for the calculator -->
+    <label for="cost">Cost per liter (in $):</label><br> <!-- Label for the cost input field -->
+    <input type="number" id="cost" value="1.72"><br> <!-- Input field for entering cost per liter with default value -->
+    <label for="liters">Liters purchased:</label><br>  <!-- Label for the liters input field -->
+    <input type="number" id="liters" value="0"><br> <!-- Input field for entering liters purchased with default value -->
+    <button onclick="calculateTotal()">Calculate</button> <!-- Button to trigger the calculation -->
+    <p id="totalCost"></p>  <!-- Paragraph to display the total cost -->
+    <script src="chapsix.js"></script> <!-- Link to external JavaScript file -->
+  </div>
+</body>
+</html>

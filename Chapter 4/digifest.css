@@ -1,0 +1,94 @@
+/* digifest.css */
+
+/* Styling for the body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set font family */
+  background: #ffffff; /* Set background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for the header */
+header {
+  background: #17072b; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 20px; /* Add padding */
+  text-align: center; /* Center-align text */
+}
+
+/* Styling for h1 */
+h1 {
+  text-decoration: underline; /* Add underline decoration */
+}
+
+/* Styling for navigation menu */
+nav ul {
+  list-style-type: none; /* Remove bullets/marker from list */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  display: inline; /* Display list items inline */
+  margin-right: 10px; /* Add right margin */
+}
+
+nav ul li a {
+  color: #ffff; /* Set link text color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Styling for h2 */
+h2 {
+  text-decoration: underline; /* Add underline decoration */
+  padding: 10px; /* Add padding */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styling for paragraphs */
+p {
+  padding: 5px; /* Add padding */
+}
+
+/* Styling for sidebar */
+.sidebar {
+  position: relative; /* Set position to relative */
+  width: 30%; /* Set width */
+  color: white; /* Set text color */
+  background-color: #172d67; /* Set background color */
+  float: right; /* Float sidebar to right */
+  width: 50%; /* Set width */
+  height: 50%; /* Set height */
+  padding-bottom: 10px; /* Add padding at bottom */
+  bottom: 300px; /* Position from bottom */
+}
+
+/* Styling for unordered lists */
+ul {
+  margin: 10px; /* Add margin */
+}
+
+/* Styling for unordered list with class dash */
+ul.dash {
+  list-style-type: none; /* Remove bullets/marker from list */
+}
+
+ul.dash > li {
+  text-indent: -20px; /* Indent list items */
+}
+
+ul.dash > li:before {
+  content: "-"; /* Add hyphen before list items */
+  text-indent: -20px; /* Indent hyphen */
+}
+
+/* Styling for footer */
+footer { 
+  position: fixed; /* Set position to fixed */
+  bottom: 0; /* Position at the bottom */
+  left: 0; /* Position from left */
+  z-index: 10; /* Set z-index */
+  background-color: #8c15e9; /* Set background color */
+  color: white; /* Text color */
+  text-align: center; /* Center-align text */
+  width: 100%; /* Set width to 100% */
+}

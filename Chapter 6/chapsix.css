@@ -1,0 +1,53 @@
+/* Global styles for the entire document */
+body {
+  font-family: Arial, sans-serif; /* Set the font family */
+  background-color: #333; /* Set the background color */
+  color: #fff; /* Set the text color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Set height to 100% of viewport height */
+}
+
+/* Styles for the container holding the calculator */
+.container {
+  background-color: #222; /* Set the background color */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow for depth */
+}
+
+/* Styles for number input fields and button */
+input[type="number"],
+button {
+  padding: 10px; /* Add padding */
+  margin-bottom: 10px; /* Add space below */
+  border: 1px solid #666; /* Add border */
+  border-radius: 5px; /* Add rounded corners */
+  background-color: #444; /* Set background color */
+  color: #fff; /* Set text color */
+  font-size: 16px; /* Set font size */
+  transition: all 0.3s ease; /* Add transition effect */
+}
+
+/* Styles for number input fields and button when focused */
+input[type="number"]:focus,
+button:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #ffffff; /* Change border color when focused */
+  background-color: #555; /* Change background color when focused */
+}
+
+/* Styles for button on hover */
+button:hover {
+  background-color: #ff4f2c; /* Change background color on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styles for paragraph */
+p {
+  font-size: 18px; /* Set font size */
+  margin-top: 10px; /* Add space above */
+}

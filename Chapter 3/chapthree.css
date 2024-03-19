@@ -1,0 +1,49 @@
+.header {
+  padding: 60px; /* Add padding around each column */
+  text-align: center; /* Centers text */
+  background: #020202; /* Sets background color of header */
+  color: white; /* Text color */
+  font-size: 20px; /* size of font */
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left; /* Float the columns to create a grid-like layout */
+    width: 33.33%;  /* Set the width of each column to one-third of the container */
+    padding: 10px; /* Add padding around each column */
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: ""; /* Create a pseudo-element to clear floats */
+    clear: both; /* Clear floats to ensure proper layout */
+    display: table; /* Make the pseudo-element behave like a table */
+  }
+
+  .row {
+    display: flex; /* Use flexbox for the row to align columns */
+  }
+  
+  .column {
+    flex: 33.33%; /* Use flex to set the width of each column equally */
+    padding: 10px; /* Add padding around each column */
+  }
+
+/* Places images in borders and adds a shadow */
+  img {
+    border: 5px solid rgb(147, 147, 151);  /* Add a solid border around images */
+    filter: drop-shadow(16px 16px 20px rgb(156, 155, 165)) invert(0%); /* Apply a drop shadow effect to images */
+  }
+
+/* Centers the text, gives it a background, changes text color to white */
+  p {
+    text-align: center; 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(26, 26, 26);
+  }
+
+/* Changes the link color */
+  footer a {
+    color: rgb(0, 0, 0); /* Set the color of links in the footer */
+    text-decoration: none; /* Remove underline from links */
+}
