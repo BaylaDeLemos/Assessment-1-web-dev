@@ -1,0 +1,45 @@
+/* Apply styling to all div elements */
+div {
+  display: inline-block; /* Display divs as inline-block elements */
+  font-family: sans-serif; /* Set font family */
+  font-size: 20px; /* Set font size */
+  margin: 25px; /* Set margin around divs */
+  border: 4px solid black; /* Set border properties */
+  line-height: 100px; /* Set line height */
+  text-align: center; /* Center-align text */
+  width: 200px; /* Set width */
+  height: 200px; /* Set height */
+}
+
+/* Apply additional styling to divs with class A */
+.A {
+  border: 5px solid #8a2ae3; /* Set border color */
+  box-shadow: 10px 10px 10px red; /* Add box shadow */
+}
+
+/* Apply additional styling to divs with class B */
+.B {
+  border: 5px solid #01fe00; /* Set border color */
+  box-shadow: rgb(0, 0, 0) 40px 40px 20px -28px inset; /* Add inset box shadow */
+}
+
+/* Apply additional styling to divs with class C */
+.C {
+  border: 5px solid #ff8d01; /* Set border color */
+  box-shadow: 0 0 0 10px #0001fd, /* Add multiple box shadows */
+              0 0 0 20px #fe0000,
+              0 0 0 30px #017f02;
+  border-radius: 15px; /* Add border radius */
+}
+
+/* Apply additional styling to divs with class D */
+.D {
+  text-shadow: 4px 5px 1px; /* Add text shadow */
+  border: 5px solid #b22222; /* Set border color */
+}
+
+/* Apply styling to the body */
+body {
+  margin: 100px auto; /* Set top and bottom margin, auto horizontal alignment */
+  width: max-content; /* Set width to maximum content width */
+}
