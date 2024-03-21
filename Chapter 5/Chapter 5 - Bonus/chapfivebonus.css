@@ -1,51 +1,56 @@
-
-body{
+/* Set background image to cover entire body */
+body {
   background-image: url("bg.jpg");
   background-size: cover;
 }
 
+/* Style for play button */
 .playBtn { 
-  color: black ;
-  border: 5px solid black ;
-  border-radius: 23px;
-  letter-spacing: 0.3px ;
-  transition: all .5s;
-  font-size: 1.3em;
-  width: 350px;
-  height: 150px;
+  color: black; /* Text color */
+  border: 5px solid black; /* Border */
+  border-radius: 23px; /* Rounded corners */
+  letter-spacing: 0.3px; /* Spacing between letters */
+  transition: all .5s; /* Transition effect */
+  font-size: 1.3em; /* Font size */
+  width: 350px; /* Button width */
+  height: 150px; /* Button height */
 }
 
- .playBtn:hover{
-  background-color: rgb(71, 75, 183);
-  color: #fff;
- }
+/* Hover effect for play button */
+.playBtn:hover {
+  background-color: rgb(71, 75, 183); /* Background color on hover */
+  color: #fff; /* Text color on hover */
+}
  
-
- .box ul{
-  list-style-type: none;  /*removes dot line in li*/
-  display: grid;
-  grid-template-columns: repeat(3, 350px);
-  grid-template-rows: repeat(3, 150px);
-  grid-gap: 50px 20px;
-  justify-content: center;
-  align-content: center;
+/* Style for grid container */
+.box ul {
+  list-style-type: none; /* Remove bullet points from list */
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(3, 350px); /* 3 columns each with width 350px */
+  grid-template-rows: repeat(3, 150px); /* 3 rows each with height 150px */
+  grid-gap: 50px 20px; /* Gap between grid items */
+  justify-content: center; /* Horizontally center grid items */
+  align-content: center; /* Vertically center grid items */
 }
 
-.box li{
-    margin: auto;
-	padding:15px; /*adjust the spacing of boxes.*/
-	float:center; /*make all box align horizontally*/
-	}
-
- .Btn{
-	position: center;
+/* Style for grid items */
+.box li {
+  margin: auto; /* Center align grid items */
+  padding: 15px; /* Adjust spacing inside grid items */
+  float: center; /* Center align grid items horizontally */
 }
 
-.headerYes{
-  color: rgb(32, 31, 79);
-  font-size: 50px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.372);
-  padding: 50px;
+/* Center alignment for .Btn class */
+.Btn {
+  position: center; /* Center align horizontally */
+}
+
+/* Style for header */
+.headerYes {
+  color: rgb(32, 31, 79); /* Text color */
+  font-size: 50px; /* Font size */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Font family */
+  text-align: center; /* Text alignment */
+  background-color: rgba(255, 255, 255, 0.372); /* Background color */
+  padding: 50px; /* Padding around header */
 }
