@@ -1,0 +1,51 @@
+
+body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+.playBtn { 
+  color: black ;
+  border: 5px solid black ;
+  border-radius: 23px;
+  letter-spacing: 0.3px ;
+  transition: all .5s;
+  font-size: 1.3em;
+  width: 350px;
+  height: 150px;
+}
+
+ .playBtn:hover{
+  background-color: rgb(71, 75, 183);
+  color: #fff;
+ }
+ 
+
+ .box ul{
+  list-style-type: none;  /*removes dot line in li*/
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(3, 150px);
+  grid-gap: 50px 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.box li{
+    margin: auto;
+	padding:15px; /*adjust the spacing of boxes.*/
+	float:center; /*make all box align horizontally*/
+	}
+
+ .Btn{
+	position: center;
+}
+
+.headerYes{
+  color: rgb(32, 31, 79);
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.372);
+  padding: 50px;
+}
